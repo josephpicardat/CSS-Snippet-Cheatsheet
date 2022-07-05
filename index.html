@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Snippet Cheatsheet</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+
+<body>
+
+    <!--Header-->
+    <header>
+
+        <!--Title-->
+        <h1 class="website">CSS Snippet Cheatsheet</h1>
+
+        <!--Subheader-->
+        <h2 class="subheader">Ever have trouble recalling the exact syntax 
+            for your favorite CSS code? Give it a permanent 
+            home and add it to this page! Select any snippet 
+            below and it’ll automatically select all of the code 
+            for you to copy
+        </h2>
+
+    </header>
+
+
+
+    <!--The Main Code-->
+    <main class="content">
+
+        <section class="syntax-box">
+
+            <!--Flexbox Row-->
+            <h3 class="title">Flexbox Row</h3>
+            <h4 class="description">Use these three properties 
+                to create a Flexbox row layout</h4>
+
+            <div class="code-outline">
+                <pre class="code">
+.row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+                </pre>
+            </div>
+
+        </section>
+
+        <section class="syntax-box">
+
+            <!--Flexbox Row-->
+            <h3 class="title">Flexbox Column</h3>
+            <h4 class="description">Use this to create a 
+                Flexbox column layout</h4>
+
+            <pre class="code">
+.column{
+    display:flex;
+    flex-direction:column;
+}
+            </pre>
+
+        </section>
+
+        <!--CSS Grid Layout-->
+        <section class="syntax-box">
+
+            <!--Flexbox Row-->
+            <h3 class="title">CSS Grid Layout</h3>
+            <h4 class="description">Build a 12-column layout using CSS Grid</h4>
+
+            <pre class="code">
+.grid{
+    display:grid;
+    width:100%;
+    grid-template-columns:repeat(12,1fr);
+}
+            </pre>
+
+        </section>
+
+         <!--Linear Gradients-->
+        <section class="syntax-box2">
+
+            <!--Flexbox Row-->
+            <h3 class="title">Linear Gradients</h3>
+            <h4 class="description">This will create a background linear Gradients
+                from top to bottom.
+            </h4>
+
+            <pre class="code">
+.linear-gradient-background{
+    background-image:linear-gradient(#6b4775,#e867ed);
+}
+            </pre>
+
+        </section>
+
+        <!--Box Transition Glow-->
+        <section class="syntax-box2">
+
+            <!--Flexbox Row-->
+            <h3 class="title">Box Transition GLow</h3>
+            <h4 class="description">Use transition and box shadows to glow on hover.</h4>
+
+            <pre class="code">
+.code-card  .card-header{
+    border-radius:8px;
+    transition:all 0.5s ease-in-out;
+}
+
+.code-card:hover, 
+.code-card:hover .card-header{
+    box-shadow:inset 0px 0px 8px (#6b4775,#e867ed);
+}
+            </pre>
+
+        </section>
+
+        <!--Overlay Card With Title-->
+        <section class="syntax-box2">
+
+            <!--Flexbox Row-->
+            <h3 class="title">Overlay Card with Title</h3>
+            <h4 class="description">Use position properties and negative margines
+                to raise elements higher than their natural starting point.
+            </h4>
+
+            <pre class="code">
+.card-header{
+    position:relative;
+    margin-top:-20px;
+}
+            </pre>
+
+        </section>
+
+    </main>
+
+
+</body>
