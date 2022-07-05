@@ -54,3 +54,4 @@ The completed application should meet the following criteria:
 
 ---
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.# CSS-Snippet-Cheatsheet
+# CSS-Snippet-Cheatsheet
